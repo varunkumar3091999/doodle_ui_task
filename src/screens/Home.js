@@ -1,25 +1,11 @@
+import Header from "../components/Header";
+
 const Home = () => (
   <div className="overflow-x-hidden">
     <div className="h-screen flex">
       <div className="pl-24 w-4/6">
         {/* Header */}
-        <div className="h-24 py-9 flex justify-between">
-          <div className="flex justify-start">
-            <p className="text-3xl font-bold">Inbox</p>
-          </div>
-          <div className="w-2/3">
-            <div className="flex text-2xl justify-evenly">
-              <div>
-                <p className="mx-3 font-semibold">Home</p>
-                <div className="h-1 w-5 rounded-full mx-auto bg-blue-500 mt-3" />
-              </div>
-              <p className="mx-3 text-gray-500">Company</p>
-              <p className="mx-3 text-gray-500">Pricing</p>
-              <p className="mx-3 text-gray-500">Contact</p>
-            </div>
-          </div>
-        </div>
-
+        <Header />
         {/* Content */}
         <div className="">
           <div className="mt-24">
